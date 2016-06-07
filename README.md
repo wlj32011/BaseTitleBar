@@ -3,9 +3,9 @@
 沉浸式状态栏支持android 4.4 以上
 
 ###效果图
-![Smaller icon](https://raw.githubusercontent.com/wlj32011/BaseTitleBar/master/device-2016-06-07-162947.png =270x)
-![Smaller icon](https://raw.githubusercontent.com/wlj32011/BaseTitleBar/master/device-2016-06-07-163019.png =270x)
-![Smaller icon](https://raw.githubusercontent.com/wlj32011/BaseTitleBar/master/device-2016-06-07-163040.png =270x)
+![Smaller icon](https://raw.githubusercontent.com/wlj32011/BaseTitleBar/master/device-2016-06-07-162947.png)
+![Smaller icon](https://raw.githubusercontent.com/wlj32011/BaseTitleBar/master/device-2016-06-07-163019.png)
+![Smaller icon](https://raw.githubusercontent.com/wlj32011/BaseTitleBar/master/device-2016-06-07-163040.png)
 
 ###使用方法
 ####添加依赖
