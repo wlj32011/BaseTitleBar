@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RootLayout">
+        <attr name="statusBarColor" format="color" />
+        <!--activity标题背景颜色-->
+        <attr name="titleBarColor" format="color" />
+        <!--activity标题文字颜色-->
+        <attr name="titleBarTextColor" format="color" />
+        <!--activity标题高度-->
+        <attr name="titleBarTitleHeight" format="dimension" />
+        <!--activity标题文字-->
+        <attr name="titleBarTitle" format="string" />
+    </declare-styleable>
+</resources>

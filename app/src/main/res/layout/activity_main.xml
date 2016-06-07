@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iiseeuu.rootview.RootLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:statusBarColor="@color/colorPrimary"
+    app:titleBarColor="@color/colorPrimaryDark"
+    app:titleBarTextColor="@android:color/white"
+    app:titleBarTitle="标题">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#cccccc"
+        >
+
+        <Button
+            android:id="@+id/only_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="仅标题"/>
+
+        <Button
+            android:id="@+id/title_with_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="带返回的标题"/>
+
+        <Button
+            android:id="@+id/left_and_right_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="左右都有图标"/>
+
+        <Button
+            android:id="@+id/only_right_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="右边有图标"/>
+
+        <Button
+            android:id="@+id/right_and_left_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="左右都是文字"/>
+
+    </LinearLayout>
+
+</com.iiseeuu.rootview.RootLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray_translucent">#7f474747</color>
+    <color name="defalutStatusBarColor">#3F51B5</color>
+    <color name="defalutTitleColor">#303F9F</color>
+</resources>
