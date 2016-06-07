@@ -11,7 +11,7 @@ import android.view.WindowManager;
 
 import com.iiseeuu.rootview.RootLayout;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 });
                 break;
             case R.id.left_and_right_img:
-                RootLayout.getInstance(this).setTitleBar("左右都图标",android.R.drawable.btn_plus,android.R.drawable.btn_minus);
+                RootLayout.getInstance(this).setTitleBar("左右都图标", android.R.drawable.btn_plus, android.R.drawable.btn_minus);
                 RootLayout.getInstance(this).setLeftOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 });
                 break;
             case R.id.only_right_img:
-                RootLayout.getInstance(this).setTitleBar("右边图标",android.R.drawable.btn_minus);
+                RootLayout.getInstance(this).setTitleBar("右边图标", android.R.drawable.btn_minus);
                 RootLayout.getInstance(this).setRightOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 });
                 break;
             case R.id.right_and_left_text:
-                RootLayout.getInstance(this).setTitleBar("左右都是文字","取消","确定");
+                RootLayout.getInstance(this).setTitleBar("左右都是文字", "取消", "确定");
                 RootLayout.getInstance(this).setRightOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
